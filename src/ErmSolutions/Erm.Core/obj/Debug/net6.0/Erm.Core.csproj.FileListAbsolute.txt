@@ -1,0 +1,12 @@
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\bin\Debug\net6.0\Erm.Core.deps.json
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\bin\Debug\net6.0\Erm.Core.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\bin\Debug\net6.0\ref\Erm.Core.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\bin\Debug\net6.0\Erm.Core.pdb
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.AssemblyInfoInputs.cache
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.AssemblyInfo.cs
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.csproj.CoreCompileInputs.cache
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\ref\Erm.Core.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.pdb
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Core\obj\Debug\net6.0\Erm.Core.csproj.AssemblyReference.cache

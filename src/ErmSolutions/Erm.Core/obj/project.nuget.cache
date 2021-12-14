@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kEOED4sNLmJ059GeOrWQtsm7jFdRUmqZTpEOfRc27F4FOOu64owzzfZa9WKymSeOCwdMhhvFo7mwmZ28NceKLg==",
+  "success": true,
+  "projectFilePath": "C:\\MyGitApps\\Applications\\Mvc\\HRSolutions\\erm\\src\\ErmSolutions\\Erm.Core\\Erm.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talle\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

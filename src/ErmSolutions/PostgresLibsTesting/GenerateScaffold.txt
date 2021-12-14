@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Host=192.168.1.227;Database=ermdev;Username=app_user;Password=Iamsmart27@" Npgsql.EntityFrameworkCore.PostgreSQL -o Entities --project=PostgresLibsTesting

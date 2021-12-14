@@ -1,0 +1,6 @@
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\bin\Debug\Erm.Infrastruture.Desktop.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\bin\Debug\Erm.Infrastruture.Desktop.pdb
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\obj\Debug\Erm.Infrastruture.Desktop.csproj.CoreCompileInputs.cache
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\obj\Debug\Erm.Infrastruture.Desktop.dll
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\obj\Debug\Erm.Infrastruture.Desktop.pdb
+C:\MyGitApps\Applications\Mvc\HRSolutions\erm\src\ErmSolutions\Erm.Infrastruture.Desktop\obj\Debug\Erm.Infrastruture.Desktop.csproj.AssemblyReference.cache

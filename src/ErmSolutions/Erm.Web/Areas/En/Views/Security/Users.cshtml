@@ -1,0 +1,95 @@
+﻿
+@model List<UserVm>
+@{
+	Layout = "~/Areas/En/Views/Shared/_Admin.cshtml";
+	ViewBag.Title = "Manage Users";
+	List<Role> roles = ViewBag.Roles;
+}
+
+@section Styles{
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="/lib/jqueryui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/tables.css">
+}
+@section PageTitle{
+	<label>Manage Users</label>
+}
+<a href="/En/Security/AddUser">Add User</a>
+<table id="tblusers" class="display">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>username</th>
+			<th>password</th>
+			<th>role</th>
+			<th>status</th>
+			<th>lastupdate</th>
+			<th>createdat</th>
+			<th>createdby</th>
+			<th>updatedat</th>
+			<th>updatedby</th>
+			<th></th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var x in Model){
+			<tr>
+				<td>@x.Userid</td>
+				<td>@x.Username</td>
+				<td>[MASKED]</td>
+				<td><a href="#" id="lnk">@x.Rolename</a></td>
+				<td>@x.Status</td>
+				<td>@x.Lastupdate</td>
+				<td>@x.Createdat.ToShortDateString()</td>
+				<td>@x.Createdby</td>
+				<td>@x.Updatedat</td>
+				<td>@x.Updatedby</td>
+				<td><a>Edit</a></td>
+				<td><a>Disable</a></td>
+			</tr>
+		}
+	</tbody>
+</table>
+<div id="dialog" style="display:none;">
+  <table class="table table-bordered">
+	  <thead>
+		  <tr>
+			  <th>id</th>
+			  <th>role</th>
+			  <th>description</th>
+			  <th>active</th>
+		  </tr>
+	  </thead>
+	  <tbody>
+		  @foreach(var y in roles)
+			{
+				<tr>
+					<td>@y.Id</td>
+					<td>@y.Rolename</td>
+					<td>@y.Description</td>
+					<td>@y.Active</td>
+				</tr>
+			}
+		</tbody>
+  </table>
+</div>
+
+@section BScripts{
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+	<script src="/lib/jqueryui/jquery-ui.min.js"></script>
+	<script>
+		$(function(){
+			  $('#tblusers').DataTable();
+
+			  $('#lnk').on('click',function(){
+				  $( "#dialog" ).dialog({
+					  height: "auto",
+					  width: "auto",
+					  modal: true
+				  });
+			  })
+		})
+	</script>
+
+}

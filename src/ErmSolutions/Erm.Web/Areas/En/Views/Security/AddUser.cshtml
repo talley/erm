@@ -1,0 +1,69 @@
+﻿@model AddUserVm
+@{
+	Layout = "~/Areas/En/Views/Shared/_Admin.cshtml";
+}
+
+@section Styles{
+	<link rel="stylesheet" type="text/css" href="/css/tables.css">
+}
+<div asp-validation-summary="ModelOnly"></div>
+
+@using(Html.BeginForm("AddUser","Security",FormMethod.Post,new{id="frmadd"}))
+{
+<table class="table">
+	<tbody>
+		<tr>
+			<th>FirstName</th>
+			<td><input asp-for="FirstName"/></td>
+			<td><span asp-validation-for="FirstName"></span></td>
+		</tr>
+		<tr>
+			<th>LastName</th>
+			<td><input asp-for="LastName"/></td>
+			<td><span asp-validation-for="LastName"></span></td>
+		</tr>
+	    <tr>
+			<th>Email</th>
+			<td><input asp-for="Email"/></td>
+			<td><span asp-validation-for="Email"></span></td>
+		</tr>
+		<tr>
+			<th>Username</th>
+			<td><input asp-for="Username"/></td>
+			<td><span asp-validation-for="Username"></span></td>
+		</tr>
+		<tr>
+			<th>Password</th>
+			<td><input asp-for="Password"/></td>
+			<td><span asp-validation-for="Password"></span></td>
+		</tr>
+		<tr>
+			<th>Rolename</th>
+			<td><select asp-for="Rolename" asp-items="ViewBag.Roles">
+				<option></option>
+			</select></td>
+			<td><span asp-validation-for="Rolename"></span></td>
+		</tr>
+		<tr>
+			<th>Status</th>
+			<td><input asp-for="Status"/></td>
+			<td><span asp-validation-for="Status"></span></td>
+		</tr>
+		
+		<tr>
+			<th>Createdat</th>
+			<td><input id="Createdat" name="Createdat" value="@DateTime.Now"/></td>
+			<td><span asp-validation-for="Createdat"></span></td>
+		</tr>
+		<tr>
+			<th>Createdby</th>
+			<td><input asp-for="Createdby" value="@Environment.MachineName"/></td>
+			<td><span asp-validation-for="Createdby"></span></td>
+		</tr>
+		<tr>
+			<th></th>
+			<td> <input type="submit" value="Add User"/></td>
+		</tr>
+	</tbody>
+</table>
+}

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2571cca5-f801-42c9-9484-7d93bcd46e4c": {
+      "ProjectGuid": "2571cca5-f801-42c9-9484-7d93bcd46e4c",
+      "DisplayName": "Erm.Infrastructure",
+      "ColorIndex": 0
+    },
+    "c710305f-0218-417c-859e-62d3cd86ac43": {
+      "ProjectGuid": "c710305f-0218-417c-859e-62d3cd86ac43",
+      "DisplayName": "Erm.Desktop",
+      "ColorIndex": 1
+    },
+    "6c57a5e6-cfe1-4983-bcf4-541806290048": {
+      "ProjectGuid": "6c57a5e6-cfe1-4983-bcf4-541806290048",
+      "DisplayName": "Erm.Core",
+      "ColorIndex": 2
+    },
+    "aa12cd65-8ed6-49d8-a6cc-9a4f2db20d9a": {
+      "ProjectGuid": "aa12cd65-8ed6-49d8-a6cc-9a4f2db20d9a",
+      "DisplayName": "Erm.Infrastruture.Desktop",
+      "ColorIndex": 3
+    },
+    "48adf4f2-603f-4d3d-9448-1629f803cba1": {
+      "ProjectGuid": "48adf4f2-603f-4d3d-9448-1629f803cba1",
+      "DisplayName": "Erm.Web",
+      "ColorIndex": 4
+    },
+    "ca1f16ea-b211-4b2d-a994-00448e34e0c0": {
+      "ProjectGuid": "ca1f16ea-b211-4b2d-a994-00448e34e0c0",
+      "DisplayName": "Erm.Services",
+      "ColorIndex": 5
+    },
+    "389999cf-6fbd-4e86-9892-3380165ed3e2": {
+      "ProjectGuid": "389999cf-6fbd-4e86-9892-3380165ed3e2",
+      "DisplayName": "Erm.Infrastructure.Tests",
+      "ColorIndex": 6
+    },
+    "f98f61b2-c43e-4501-840f-e956cf14ba69": {
+      "ProjectGuid": "f98f61b2-c43e-4501-840f-e956cf14ba69",
+      "DisplayName": "PostgresLibsTesting",
+      "ColorIndex": 7
+    },
+    "522400e8-b934-4f27-898f-9ecb347a88d8": {
+      "ProjectGuid": "522400e8-b934-4f27-898f-9ecb347a88d8",
+      "DisplayName": "Erm.Commons",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 9
+}
